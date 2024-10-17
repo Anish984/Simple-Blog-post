@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    display:flex;
+    justify-content:center;
+    margin:30px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form,button,.center {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  button{
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border-radius:8px;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    background-color: #b545d1;
+  }
+  .post {
+    border: 2px solid #4a5568; /* Gray border */
+    padding: 16px;            /* Inner space */
+    width: 250px;             /* Width of the box */
+    height: auto; 
+    display: flex;
+    flex-direction: column;           /* Height of the box */
+    background-color: #cbd5e0; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    border-radius: 8px;      /* Optional rounded corners */
+  }
+  .button{
+    width:auto;
+  }
+  .sep-post {
+    border: 2px solid #4a5568; /* Gray border */
+    padding: 16px;            /* Inner space */
+    width: 1500px;             /* Width of the box */
+    height: auto; 
+    display: flex;
+    flex-direction: column;           /* Height of the box */
+    background-color: #cbd5e0; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    border-radius: 8px;      /* Optional rounded corners */
+  }
